@@ -35,6 +35,7 @@ stages:
     script: |
       #!/bin/bash
       # Push app
+      cf create-service cloudantNoSQLDB Lite dreamhome-finders-cloudant-01
       if ! cf app $CF_APP; then  
         cf push $CF_APP
       else
