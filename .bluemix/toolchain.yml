@@ -9,7 +9,7 @@ dreamhome-api-repository:
   service_id: githubpublic
   parameters:
     repo_name: "dreamhome-finders-tool-01"
-    repo_url: "https://github.com/buenavh/dreamhome-finders.git"
+    repo_url: "https://github.com/cainsomniac/dreamhome-finders-tool-01"
     type: clone
     has_issues: true
 

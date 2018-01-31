@@ -3,8 +3,8 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: dreamhome-finders-tool
-  host: dreamhome-finders-tool
+  name: dreamhome-finders-tool-01
+  host: dreamhome-finders-tool-01
   disk_quota: 1024M
   services:
-  - dreamhome-finders-cloudant
+  - dreamhome-finders-cloudant-01
