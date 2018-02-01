@@ -1,17 +1,17 @@
 # Cloud Node.js Case Study 2
 
-Pre-requisite  for this toolchain creation 
+Prerequisite  for this toolchain creation 
 
 * Create your bluemix account , You need to have bluemix organization 
    url : http://ng.bluemix.net
 * Create a github account 
    url : https://github.com
    
-Once it is done, Now you have to press the following button , It will take you  to inside IBM Cloud , Now you have selected the respective Organization, Region ID, space, application name.
+Once completed, you have to click the Create toolchain button. Review the default information for the toolchain settings. The toolchain's name identifies it in IBM Cloud. If you want to use a different name, region, or organization, change them.
 
-Once the application get deployed you have to check the deployed delivery pipeline and through this following url you can check the application.
+Note: Each toolchain is associated with a specific org. Because app names are unique, also make sure that the toolchain's name is unique within IBM Cloud. You can have only 200 toolchains per org. The org that you are currently working in is displayed by default. 
 
-You have to also analyze the Node.js from the GitHub 
+Once the application get deployed you have to check the deployed delivery pipeline. After the final job in the pipeline is completed, view your app as it runs on IBM Cloud by clicking the URL at the bottom of the deploy stage.
 
 ## Create the toolchain
 
